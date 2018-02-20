@@ -24,19 +24,24 @@ class Driver
   end
   
   ##############################################################################################################
-  # Method setStartCity
-  #       It sets the starting city of the driver
-  ##############################################################################################################  
-  
+  # Method setStartCity(location)
+  # sets the starting city of the driver
+  # SUCCESS CASES: location attribute is set
+  ##############################################################################################################
+
   def setStartCity(location)
-    @location = location
+    if (location == nil)
+      raise RuntimeError, "start city cannot be nil"
+    else
+      @location = location
+    end
   end
   
   ##############################################################################################################
-  # Method travel
-  #       It takes 2 input arguments: startCity and toCity
-  ##############################################################################################################  
-  
+  # Method travel(fromCity, toCity, wantToTakeAveStr)
+  # takes 2 input arguments: startCity and toCity and updates attribute location and visited
+  # SUCCESS CASES: prints travel path
+  ##############################################################################################################
   def travel(fromCity, toCity, wantToTakeAveStr) 
     wantToGoCity = toCity.name
 
@@ -55,9 +60,11 @@ class Driver
   end
 
   ##############################################################################################################
-  # Method updateCount
-  #       It updates out books/toys/classes counts
-  ##############################################################################################################  
+  # Method updateCounts(loc)
+  # update Driver attributes books, dinos, numClasses, or no attribute depending on loc string
+  # SUCCESS CASES: update attribute if loc is found
+  # FAILURE CASES: does not update anything if loc is not found
+  ##############################################################################################################
   def updateCounts(loc)
     if loc == SIM_LOC_MUSEUM
       @dinos  = @dinos + 1
@@ -70,9 +77,8 @@ class Driver
   
   ##############################################################################################################
   # Method summarizeTrip
-  #       It prints out books/toys/classes counts
-  ##############################################################################################################  
-    
+  # prints out books/toys/classes counts
+  ##############################################################################################################
   def summarizeTrip
     puts @name + " obtained " + @books.to_s + (@books != 1? " books!": " book!")
     puts @name + " obtained " + @dinos.to_s + (@dinos != 1? " dinosaur toys!": " dinosaur toy!")
@@ -81,7 +87,8 @@ class Driver
 
   ##############################################################################################################
   # Method loopExists
-  #       It checks if a loop is detected. For example, Hospital to Hillman and Hillman to Hospital
+  # checks if a loop is detected. For example, Hospital to Hillman and Hillman to Hospital
+  # SUCCESS CASES: true if loop is detected, false otherwise
   ##############################################################################################################  
     
   def loopExists (city1, city2)
