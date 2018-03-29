@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Defect Test Hello page</description>
+   <name>Hello - Defect</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f4cb59e-49c0-4658-a6e8-3fce24c20eac</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/hello'</defaultValue>
+      <description>Hello link</description>
+      <id>129b0785-e8c8-445f-a1a2-a906a03e7b12</id>
+      <masked>false</masked>
+      <name>Hello_link</name>
+   </variable>
+</TestCaseEntity>

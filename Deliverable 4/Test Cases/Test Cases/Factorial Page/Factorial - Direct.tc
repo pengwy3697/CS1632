@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Access Factorial link directly</description>
+   <name>Factorial - Direct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b2a82dd-f3ad-4243-a7e9-de0003da4a99</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/fact'</defaultValue>
+      <description>Direct link for Factorial page</description>
+      <id>d433a2e0-aeff-4cbb-b75c-c843775b3613</id>
+      <masked>false</masked>
+      <name>Factorial_link</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description>Input value</description>
+      <id>e9454ee6-f3fb-48d4-aa37-e6ecf11f9142</id>
+      <masked>false</masked>
+      <name>var_input_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'Factorial of 5 is 120!'</defaultValue>
+      <description>Expected output</description>
+      <id>a29a0fec-f45d-4ff3-aa2e-f459ec665cc9</id>
+      <masked>false</masked>
+      <name>var_output_value</name>
+   </variable>
+</TestCaseEntity>

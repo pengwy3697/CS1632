@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Corner Test Fibonacci page</description>
+   <name>Fibonacci - Corner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>befa50b9-e51a-4e0c-bcb7-77527b452b3c</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/fib'</defaultValue>
+      <description>Fibonacci link</description>
+      <id>7e4f2d17-edd0-41dd-aa79-b6def78a7513</id>
+      <masked>false</masked>
+      <name>Fibonacci_link</name>
+   </variable>
+</TestCaseEntity>

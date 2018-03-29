@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Factorial page</description>
+   <name>Factorial - Normal Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ec76533-eb9f-44b0-8bed-b7708477fff1</testCaseGuid>
+</TestCaseEntity>

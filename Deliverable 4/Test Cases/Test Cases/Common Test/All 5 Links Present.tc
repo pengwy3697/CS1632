@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify 5 links are on top</description>
+   <name>All 5 Links Present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9d411a6-c4e9-4d77-af7f-cee92c948df1</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>db88ab82-1ba6-4793-a5ab-298e8cb28ac2</id>
+      <masked>false</masked>
+      <name>CS1632_link</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/fact'</defaultValue>
+      <description></description>
+      <id>c28906bd-e154-4907-81fa-5fa61a290d65</id>
+      <masked>false</masked>
+      <name>Factorial_link</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/fib'</defaultValue>
+      <description></description>
+      <id>49258ab7-e3c8-4d2d-a258-d02f77b63c00</id>
+      <masked>false</masked>
+      <name>Fibonacci_link</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/hello'</defaultValue>
+      <description></description>
+      <id>e2d9dba2-7745-43c8-b88c-78e1bdcc21ea</id>
+      <masked>false</masked>
+      <name>Hello_link</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/cathy'</defaultValue>
+      <description></description>
+      <id>106e45d3-7907-43b7-814e-defb12f3e776</id>
+      <masked>false</masked>
+      <name>Cathedral_link</name>
+   </variable>
+</TestCaseEntity>

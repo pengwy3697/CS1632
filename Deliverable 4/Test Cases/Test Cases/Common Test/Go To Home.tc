@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Home page - https://cs1632ex.herokuapp.com/</description>
+   <name>Go To Home</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ebae45b-ac0b-4b69-aaa7-09c7fb81e720</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com'</defaultValue>
+      <description></description>
+      <id>d2e7b6d6-5b6d-474a-920d-f7e02c3b7ec5</id>
+      <masked>false</masked>
+      <name>Home_link</name>
+   </variable>
+</TestCaseEntity>

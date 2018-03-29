@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edge Test Factorial page</description>
+   <name>Hello - Edge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd64e04a-a64d-46d0-8e7e-0bcba98a5b9d</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/fib'</defaultValue>
+      <description></description>
+      <id>ea17884a-063b-4eba-b98d-9fe2b6b64032</id>
+      <masked>false</masked>
+      <name>Fibonacci_link</name>
+   </variable>
+</TestCaseEntity>

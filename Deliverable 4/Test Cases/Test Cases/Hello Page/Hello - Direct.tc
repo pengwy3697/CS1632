@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Access Hello link directly</description>
+   <name>Hello - Direct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40105429-fb16-491b-a9dd-95c5074baa99</testCaseGuid>
+   <variable>
+      <defaultValue>'Hello CS1632, from Prof. Laboon!'</defaultValue>
+      <description></description>
+      <id>7fb4feaf-d506-4c92-a305-31df3d2d47e4</id>
+      <masked>false</masked>
+      <name>Var_hello</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/hello'</defaultValue>
+      <description></description>
+      <id>9907274e-c924-420c-afa4-64f8f854e05b</id>
+      <masked>false</masked>
+      <name>Hello_link</name>
+   </variable>
+</TestCaseEntity>

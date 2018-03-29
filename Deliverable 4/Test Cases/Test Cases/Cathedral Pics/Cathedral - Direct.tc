@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Access Cathedral link directly</description>
+   <name>Cathedral - Direct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9d1cb77-d4c7-48a0-87f0-d305636afa97</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/cathy'</defaultValue>
+      <description></description>
+      <id>243f8426-ab74-455f-abb3-8bbc8b67d2ae</id>
+      <masked>false</masked>
+      <name>Cathedral_link</name>
+   </variable>
+</TestCaseEntity>
