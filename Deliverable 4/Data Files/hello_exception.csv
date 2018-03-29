@@ -1,0 +1,4 @@
+https://cs1632ex.herokuapp.com/hello/%,Will cause Application error on Help page
+https://cs1632ex.herokuapp.com/hello/|,Will cause Application error on Help page
+https://cs1632ex.herokuapp.com/hello/[,Will cause Application error on Help page
+https://cs1632ex.herokuapp.com/hello/],Will cause Application error on Help page
