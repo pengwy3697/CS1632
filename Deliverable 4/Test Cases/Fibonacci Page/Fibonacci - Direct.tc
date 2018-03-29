@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Access Fibonacci link directly</description>
+   <name>Fibonacci - Direct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4ee9ddc-0692-4d24-9649-f8d00a9384c4</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/fib'</defaultValue>
+      <description>Direct link for Fibonacci page</description>
+      <id>83b74090-aa12-4ab4-85e4-b5e93f129a7f</id>
+      <masked>false</masked>
+      <name>Fibonacci_link</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description>Input value</description>
+      <id>625a4e7d-3f2c-40be-b518-660290f69589</id>
+      <masked>false</masked>
+      <name>var_input_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fibonacci of 5 is 8!'</defaultValue>
+      <description>Expected output</description>
+      <id>2dd97b98-8254-4c2a-87dd-236dae1579c7</id>
+      <masked>false</masked>
+      <name>var_output_value</name>
+   </variable>
+</TestCaseEntity>

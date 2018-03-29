@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Exception Test Factorial page</description>
+   <name>Factorial - Exception</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9abfb29-46f6-4616-bb38-ca5a1a82d817</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cs1632ex.herokuapp.com/fact'</defaultValue>
+      <description>Factorial page direct link</description>
+      <id>808508ed-a0ea-4704-8ff6-3ecfcf6dac4e</id>
+      <masked>false</masked>
+      <name>Factorial_link</name>
+   </variable>
+   <variable>
+      <defaultValue>'%'</defaultValue>
+      <description>Input value that will cause exception</description>
+      <id>db92dfa3-6e7e-44e6-b607-980a7ef6dace</id>
+      <masked>false</masked>
+      <name>Exception_input_value</name>
+   </variable>
+</TestCaseEntity>

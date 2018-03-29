@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Cathedral page</description>
+   <name>Cathedral - Normal Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afe425b0-3f2e-405f-90ce-58e23807d4e6</testCaseGuid>
+</TestCaseEntity>

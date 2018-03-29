@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Hello page</description>
+   <name>Hello - Normal Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27859f18-8591-4e1c-8d4f-9a8b8d62eefa</testCaseGuid>
+   <variable>
+      <defaultValue>'Hello CS1632, from Prof. Laboon!'</defaultValue>
+      <description></description>
+      <id>7f354850-f5a9-4cbb-8fff-c59aa4abb431</id>
+      <masked>false</masked>
+      <name>Var_hello</name>
+   </variable>
+</TestCaseEntity>

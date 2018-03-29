@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Home page</description>
+   <name>Home</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5a76eea-7f7f-464e-b0bf-d13fe73afce1</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>cd32dfef-7f6b-49a7-a523-39a2e27681d5</id>
+      <masked>false</masked>
+      <name>Factorial_input_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'Welcome, friend,\\nto a land of pure calculation.\\nTHE WORLD IS YOUR OYSTER'</defaultValue>
+      <description></description>
+      <id>0ce69f1e-09ec-4dc8-b18f-d0505e475ca5</id>
+      <masked>false</masked>
+      <name>Home_message_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Used for CS1632 Software Quality Assurance, taught by Bill Laboon'</defaultValue>
+      <description></description>
+      <id>2b95db79-6375-46b0-a13f-35520b929e65</id>
+      <masked>false</masked>
+      <name>Home_message_2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a21976ee-7714-4153-8cd9-8183a8465c51</id>
+      <masked>false</masked>
+      <name>Home_message_3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63748e2e-b202-405d-9e74-1aa62f740ba1</id>
+      <masked>false</masked>
+      <name>Home_message_4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3a374884-d6ea-4599-93f6-1f8338d71395</id>
+      <masked>false</masked>
+      <name>Home_message_5</name>
+   </variable>
+</TestCaseEntity>
