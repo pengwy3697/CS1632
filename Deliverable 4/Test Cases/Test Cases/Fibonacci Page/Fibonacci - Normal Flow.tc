@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Fibonacci page</description>
-   <name>Fibonacci - Normal Flow</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1a035378-7503-40c5-9e5d-83500164b841</testCaseGuid>
-</TestCaseEntity>
