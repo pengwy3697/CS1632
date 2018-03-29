@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Deliverable-4 Edge,Chrome 64.0.3282.186,,2018-03-21 19:03:26,2018-03-21 19:03:42,16.255s,PASSED
+,,,,,,
+Test Cases/Factorial Page/Factorial - Edge,Chrome 64.0.3282.186,Test Factorial page,2018-03-21 19:03:26,2018-03-21 19:03:33,6.268s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData),Chrome 64.0.3282.186,,2018-03-21 19:03:27,2018-03-21 19:03:27,0.686s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-21 19:03:27,2018-03-21 19:03:30,2.804s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,Go to Factorial page,2018-03-21 19:03:30,2018-03-21 19:03:31,0.438s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 64.0.3282.186,Loop,2018-03-21 19:03:31,2018-03-21 19:03:32,1.314s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-21 19:03:32,2018-03-21 19:03:33,0.614s,PASSED
+,,,,,,
+Test Cases/Fibonacci Page/Fibonacci - Edge,Chrome 64.0.3282.186,Test Factorial page,2018-03-21 19:03:33,2018-03-21 19:03:37,4.715s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FibonacciEdgeData),Chrome 64.0.3282.186,,2018-03-21 19:03:33,2018-03-21 19:03:33,0.042s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-21 19:03:33,2018-03-21 19:03:35,1.972s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,Go to Fibonacci page,2018-03-21 19:03:35,2018-03-21 19:03:35,0.359s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 64.0.3282.186,Loop,2018-03-21 19:03:35,2018-03-21 19:03:37,1.494s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-21 19:03:37,2018-03-21 19:03:37,0.601s,PASSED
+,,,,,,
+Test Cases/Hello Page/Hello - Edge,Chrome 64.0.3282.186,Test Factorial page,2018-03-21 19:03:37,2018-03-21 19:03:42,4.869s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(HelloEdgeData),Chrome 64.0.3282.186,,2018-03-21 19:03:38,2018-03-21 19:03:38,0.037s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-21 19:03:38,2018-03-21 19:03:39,1.935s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 64.0.3282.186,Loop,2018-03-21 19:03:39,2018-03-21 19:03:42,2.110s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-21 19:03:42,2018-03-21 19:03:42,0.606s,PASSED

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Deliverable-4 Exception" time="16" tests="0" failures="3" errors="0">
+   <testsuite name="Deliverable-4 Exception" tests="0" failures="3" errors="0" time="16" timestamp="2018-03-21 19:03:57" hostname="jenni - DESKTOP-C9DGACK.home" id="Test Suites/Deliverable-4 Exception">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Exception\\20180321_190356"/>
+         <property name="logFiles" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Exception\\20180321_190356\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Exception\\20180321_190356\\1521677043102.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Exception\\20180321_190356\\1521677047974.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Exception\\20180321_190356\\1521677053710.png"/>
+         <property name="hostName" value="jenni - DESKTOP-C9DGACK.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="2a0ac2190867a513c0adc80149fbff29"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Factorial Page/Factorial - Exception" classname="Test Cases/Factorial Page/Factorial - Exception" status="FAILED">
+         <failure type="FAILED" message="Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)"/>
+         <system-out><![CDATA[2018-03-21 19:03:57 - [TEST_CASE][FAILED] - Test Cases/Factorial Page/Factorial - Exception: Test Cases/Factorial Page/Factorial - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-21 19:03:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 19:04:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 19:04:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-21 19:04:01 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-21 19:04:01 - [TEST_STEP][PASSED] - setText: Text '%' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 19:04:01 - [MESSAGE][PASSED] - Text '%' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 19:04:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 19:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 19:04:01 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-21 19:04:03 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Exception\\20180321_190356\\1521677043102.png]]
+
+2018-03-21 19:04:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 19:04:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-03-21 19:03:57 - [TEST_CASE][FAILED] - Test Cases/Factorial Page/Factorial - Exception: Test Cases/Factorial Page/Factorial - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci Page/Fibonacci - Exception" classname="Test Cases/Fibonacci Page/Fibonacci - Exception" status="FAILED">
+         <failure type="FAILED" message="Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)"/>
+         <system-out><![CDATA[2018-03-21 19:04:04 - [TEST_CASE][FAILED] - Test Cases/Fibonacci Page/Fibonacci - Exception: Test Cases/Fibonacci Page/Fibonacci - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-21 19:04:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 19:04:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 19:04:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-21 19:04:06 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-21 19:04:06 - [TEST_STEP][PASSED] - setText: Text '%' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 19:04:06 - [MESSAGE][PASSED] - Text '%' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 19:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 19:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 19:04:06 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-21 19:04:08 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Exception\\20180321_190356\\1521677047974.png]]
+
+2018-03-21 19:04:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 19:04:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-03-21 19:04:04 - [TEST_CASE][FAILED] - Test Cases/Fibonacci Page/Fibonacci - Exception: Test Cases/Fibonacci Page/Fibonacci - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hello Page/Hello - Exception" classname="Test Cases/Hello Page/Hello - Exception" status="FAILED">
+         <failure type="FAILED" message="Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '2' second(s)"/>
+         <system-out><![CDATA[2018-03-21 19:04:08 - [TEST_CASE][FAILED] - Test Cases/Hello Page/Hello - Exception: Test Cases/Hello Page/Hello - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '2' second(s)
+
+2018-03-21 19:04:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 19:04:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 19:04:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/%' successfully
+
+2018-03-21 19:04:11 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/%' successfully
+
+2018-03-21 19:04:11 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '2' second(s)
+
+2018-03-21 19:04:14 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '2' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Exception\\20180321_190356\\1521677053710.png]]
+
+2018-03-21 19:04:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 19:04:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-03-21 19:04:08 - [TEST_CASE][FAILED] - Test Cases/Hello Page/Hello - Exception: Test Cases/Hello Page/Hello - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '2' second(s)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-21 19:03:57 - [TEST_SUITE][FAILED] - Deliverable-4 Exception: Test Cases/Factorial Page/Factorial - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)]]></system-out>
+      <system-err><![CDATA[2018-03-21 19:03:57 - [TEST_SUITE][FAILED] - Deliverable-4 Exception: Test Cases/Factorial Page/Factorial - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)]]></system-err>
+   </testsuite>
+</testsuites>

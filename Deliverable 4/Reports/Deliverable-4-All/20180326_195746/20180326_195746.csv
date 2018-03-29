@@ -1,0 +1,158 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Deliverable-4-All,Chrome 65.0.3325.181,,2018-03-26 19:57:47,2018-03-26 20:00:00,2m - 12.202s,FAILED
+,,,,,,
+Test Cases/Common Test/All 5 Links Present,Chrome 65.0.3325.181,Verify 5 links are on top,2018-03-26 19:57:48,2018-03-26 19:57:50,1.945s,PASSED
+verifyLinksAccessible,Chrome 65.0.3325.181,Verify all 5 links are accessible,2018-03-26 19:57:48,2018-03-26 19:57:50,1.533s,PASSED
+,,,,,,
+Test Cases/Home Page/Home,Chrome 65.0.3325.181,Test Home page,2018-03-26 19:57:50,2018-03-26 19:57:56,5.829s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to traverse to home  page and verify existence of logo,2018-03-26 19:57:50,2018-03-26 19:57:51,0.861s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to traverse to home  page and verify existence of logo,2018-03-26 19:57:51,2018-03-26 19:57:55,3.983s,PASSED
+Statement - welcomeStr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(XPath/p_Welcome element)),Chrome 65.0.3325.181,Get the welcome text from Home page using XPath,2018-03-26 19:57:55,2018-03-26 19:57:55,0.060s,PASSED
+Statement - taughtBy = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(XPath/p_Taught element)),Chrome 65.0.3325.181,Get the taught by text from Home page using XPath,2018-03-26 19:57:55,2018-03-26 19:57:55,0.041s,PASSED
+verifyMatch,Chrome 65.0.3325.181,"Use Reg Ex to verify 'Welcome, friend, to a land of pure calculation.'",2018-03-26 19:57:55,2018-03-26 19:57:55,0.007s,PASSED
+verifyMatch,Chrome 65.0.3325.181,"Use Reg Ex to erify \""Used for CS1632 Software Quality Assurance, taught by Bill Laboon\""",2018-03-26 19:57:55,2018-03-26 19:57:55,0.001s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:57:55,2018-03-26 19:57:56,0.600s,PASSED
+,,,,,,
+Test Cases/Fibonacci Page/Fibonacci - Normal Flow,Chrome 65.0.3325.181,Test Fibonacci page,2018-03-26 19:57:56,2018-03-26 19:58:02,6.834s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FibonacciTestData),Chrome 65.0.3325.181,,2018-03-26 19:57:56,2018-03-26 19:57:57,0.800s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to traverse to home  page and verify existence of logo,2018-03-26 19:57:57,2018-03-26 19:57:57,0.815s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to traverse to home  page and verify existence of logo,2018-03-26 19:57:57,2018-03-26 19:58:00,2.864s,PASSED
+click,Chrome 65.0.3325.181,Click on Fibonacci link,2018-03-26 19:58:00,2018-03-26 19:58:00,0.163s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Check for presence of logo after click,2018-03-26 19:58:00,2018-03-26 19:58:00,0.021s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify 'Submit' button is present,2018-03-26 19:58:00,2018-03-26 19:58:00,0.022s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 65.0.3325.181,Loop,2018-03-26 19:58:00,2018-03-26 19:58:02,1.314s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:02,2018-03-26 19:58:02,0.630s,PASSED
+,,,,,,
+Test Cases/Factorial Page/Factorial - Normal Flow,Chrome 65.0.3325.181,Test Factorial page,2018-03-26 19:58:02,2018-03-26 19:58:09,6.824s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialTestData),Chrome 65.0.3325.181,,2018-03-26 19:58:03,2018-03-26 19:58:03,0.045s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to traverse to home  page and verify existence of logo,2018-03-26 19:58:03,2018-03-26 19:58:04,1.758s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to traverse to home  page and verify existence of logo,2018-03-26 19:58:04,2018-03-26 19:58:07,2.847s,PASSED
+click,Chrome 65.0.3325.181,Click on Fibonacci link,2018-03-26 19:58:07,2018-03-26 19:58:08,0.306s,PASSED
+callTestCase,Chrome 65.0.3325.181,Verify presence of logo,2018-03-26 19:58:08,2018-03-26 19:58:08,0.085s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify 'Submit' button is present,2018-03-26 19:58:08,2018-03-26 19:58:08,0.025s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 65.0.3325.181,Loop,2018-03-26 19:58:08,2018-03-26 19:58:09,0.965s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:09,2018-03-26 19:58:09,0.586s,PASSED
+,,,,,,
+Test Cases/Cathedral Pics/Cathedral - Normal Flow,Chrome 65.0.3325.181,Test Cathedral page,2018-03-26 19:58:09,2018-03-26 19:58:15,5.741s,PASSED
+callTestCase,Chrome 65.0.3325.181,,2018-03-26 19:58:09,2018-03-26 19:58:10,0.838s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to traverse to home  page and verify existence of logo,2018-03-26 19:58:10,2018-03-26 19:58:13,2.868s,PASSED
+click,Chrome 65.0.3325.181,Click on Cathedral link,2018-03-26 19:58:13,2018-03-26 19:58:14,0.999s,PASSED
+callTestCase,Chrome 65.0.3325.181,,2018-03-26 19:58:14,2018-03-26 19:58:14,0.102s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Check the presence of an ordered list that contains the number '1',2018-03-26 19:58:14,2018-03-26 19:58:14,0.030s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Check the presence of an ordered list that contains the number '2',2018-03-26 19:58:14,2018-03-26 19:58:14,0.021s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Check the presence of an ordered list that contains the number '3',2018-03-26 19:58:14,2018-03-26 19:58:14,0.023s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify 'Sunny Cathedral' image is present,2018-03-26 19:58:14,2018-03-26 19:58:14,0.023s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify 'Alpenglow Cathedral' image is present,2018-03-26 19:58:14,2018-03-26 19:58:14,0.026s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify 'Old Cathedral' image is present,2018-03-26 19:58:14,2018-03-26 19:58:14,0.020s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:14,2018-03-26 19:58:15,0.602s,PASSED
+,,,,,,
+Test Cases/Home Page/Home - Corner,Chrome 65.0.3325.181,Corner Test Home page,2018-03-26 19:58:15,2018-03-26 19:58:19,4.304s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData),Chrome 65.0.3325.181,,2018-03-26 19:58:15,2018-03-26 19:58:15,0.026s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:15,2018-03-26 19:58:17,2.001s,PASSED
+Statement - For (def index : (1..10)),Chrome 65.0.3325.181,Loop,2018-03-26 19:58:17,2018-03-26 19:58:19,1.469s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:19,2018-03-26 19:58:19,0.599s,PASSED
+,,,,,,
+Test Cases/Hello Page/Hello - Normal Flow,Chrome 65.0.3325.181,Test Hello page,2018-03-26 19:58:19,2018-03-26 19:58:24,4.845s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to verify all 5 links accessible,2018-03-26 19:58:19,2018-03-26 19:58:20,0.867s,PASSED
+callTestCase,Chrome 65.0.3325.181,Common utility to traverse to home  page and verify existence of logo,2018-03-26 19:58:20,2018-03-26 19:58:23,2.776s,PASSED
+click,Chrome 65.0.3325.181,Click on Hello href,2018-03-26 19:58:23,2018-03-26 19:58:23,0.213s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Check for presence of logo after click,2018-03-26 19:58:23,2018-03-26 19:58:23,0.030s,PASSED
+verifyElementText,Chrome 65.0.3325.181,Compare expected output to variable defined,2018-03-26 19:58:23,2018-03-26 19:58:23,0.096s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:23,2018-03-26 19:58:24,0.654s,PASSED
+,,,,,,
+Test Cases/Factorial Page/Factorial - Edge,Chrome 65.0.3325.181,Edge Test Factorial page,2018-03-26 19:58:24,2018-03-26 19:58:30,5.494s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData),Chrome 65.0.3325.181,,2018-03-26 19:58:24,2018-03-26 19:58:24,0.019s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:24,2018-03-26 19:58:26,2.075s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,Go to Factorial page,2018-03-26 19:58:26,2018-03-26 19:58:27,0.936s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 65.0.3325.181,Loop,2018-03-26 19:58:27,2018-03-26 19:58:29,1.646s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:29,2018-03-26 19:58:30,0.610s,PASSED
+,,,,,,
+Test Cases/Fibonacci Page/Fibonacci - Edge,Chrome 65.0.3325.181,Edge Test Factorial page,2018-03-26 19:58:30,2018-03-26 19:58:36,6.144s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FibonacciEdgeData),Chrome 65.0.3325.181,,2018-03-26 19:58:30,2018-03-26 19:58:30,0.021s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:30,2018-03-26 19:58:32,2.041s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,Go to Fibonacci page,2018-03-26 19:58:32,2018-03-26 19:58:32,0.644s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 65.0.3325.181,Loop,2018-03-26 19:58:32,2018-03-26 19:58:35,2.681s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:35,2018-03-26 19:58:36,0.600s,PASSED
+,,,,,,
+Test Cases/Hello Page/Hello - Edge,Chrome 65.0.3325.181,Edge Test Factorial page,2018-03-26 19:58:36,2018-03-26 19:58:42,6.366s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(HelloEdgeData),Chrome 65.0.3325.181,,2018-03-26 19:58:36,2018-03-26 19:58:36,0.031s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:36,2018-03-26 19:58:38,2.063s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 65.0.3325.181,Loop,2018-03-26 19:58:38,2018-03-26 19:58:41,3.479s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:41,2018-03-26 19:58:42,0.622s,PASSED
+,,,,,,
+Test Cases/Factorial Page/Factorial - Corner,Chrome 65.0.3325.181,Corner Test Factorial page,2018-03-26 19:58:42,2018-03-26 19:58:50,7.799s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData),Chrome 65.0.3325.181,,2018-03-26 19:58:42,2018-03-26 19:58:42,0.017s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:42,2018-03-26 19:58:44,2.088s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-03-26 19:58:44,2018-03-26 19:58:45,0.626s,PASSED
+Statement - For (def index : (-10..0)),Chrome 65.0.3325.181,Loop,2018-03-26 19:58:45,2018-03-26 19:58:49,4.287s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:49,2018-03-26 19:58:50,0.600s,PASSED
+,,,,,,
+Test Cases/Fibonacci Page/Fibonacci - Corner,Chrome 65.0.3325.181,Corner Test Fibonacci page,2018-03-26 19:58:50,2018-03-26 19:58:58,8.165s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData),Chrome 65.0.3325.181,,2018-03-26 19:58:50,2018-03-26 19:58:50,0.017s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:50,2018-03-26 19:58:52,2.032s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-03-26 19:58:52,2018-03-26 19:58:53,0.648s,PASSED
+Statement - For (def index : (1000..1010)),Chrome 65.0.3325.181,Loop,2018-03-26 19:58:53,2018-03-26 19:58:57,4.669s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:57,2018-03-26 19:58:58,0.633s,PASSED
+,,,,,,
+Test Cases/Hello Page/Hello - Defect,Chrome 65.0.3325.181,Defect Test Hello page,2018-03-26 19:58:58,2018-03-26 19:59:05,6.745s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(HelloDefectData),Chrome 65.0.3325.181,,2018-03-26 19:58:58,2018-03-26 19:58:58,0.022s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:58:58,2018-03-26 19:59:00,2.020s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 65.0.3325.181,Loop,2018-03-26 19:59:00,2018-03-26 19:59:04,3.909s,FAILED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:04,2018-03-26 19:59:05,0.663s,PASSED
+,,,,,,
+Test Cases/Cathedral Pics/Cathedral - Direct,Chrome 65.0.3325.181,Access Cathedral link directly,2018-03-26 19:59:05,2018-03-26 19:59:09,3.807s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:05,2018-03-26 19:59:07,2.001s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,Navigate to Cathedral page directly,2018-03-26 19:59:07,2018-03-26 19:59:08,0.749s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Check the presence of an ordered list with index '1',2018-03-26 19:59:08,2018-03-26 19:59:08,0.043s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Check the presence of an ordered list with index '2',2018-03-26 19:59:08,2018-03-26 19:59:08,0.031s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Check the presence of an ordered list with index '3',2018-03-26 19:59:08,2018-03-26 19:59:08,0.035s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify 'Sunny Cathedral' image is present,2018-03-26 19:59:08,2018-03-26 19:59:08,0.033s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify 'Alpenglow Cathedral' image is present,2018-03-26 19:59:08,2018-03-26 19:59:08,0.028s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify 'Old Cathedral' image is present,2018-03-26 19:59:08,2018-03-26 19:59:08,0.028s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:08,2018-03-26 19:59:09,0.659s,PASSED
+,,,,,,
+Test Cases/Factorial Page/Factorial - Direct,Chrome 65.0.3325.181,Access Factorial link directly,2018-03-26 19:59:09,2018-03-26 19:59:13,4.094s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:09,2018-03-26 19:59:11,2.047s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,Navigate to Factorial page directly,2018-03-26 19:59:11,2018-03-26 19:59:11,0.581s,PASSED
+setText,Chrome 65.0.3325.181,Enter input value by passing in variable defined on 'Variable' tab,2018-03-26 19:59:11,2018-03-26 19:59:12,0.237s,PASSED
+click,Chrome 65.0.3325.181,Click on Submit,2018-03-26 19:59:12,2018-03-26 19:59:12,0.265s,PASSED
+verifyElementText,Chrome 65.0.3325.181,Compare Fibonacci output with expected value,2018-03-26 19:59:12,2018-03-26 19:59:12,0.092s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:12,2018-03-26 19:59:13,0.675s,PASSED
+,,,,,,
+Test Cases/Fibonacci Page/Fibonacci - Direct,Chrome 65.0.3325.181,Access Fibonacci link directly,2018-03-26 19:59:13,2018-03-26 19:59:17,4.075s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:13,2018-03-26 19:59:15,2.046s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,Navigate to Fibonacci page directly,2018-03-26 19:59:15,2018-03-26 19:59:16,0.581s,PASSED
+setText,Chrome 65.0.3325.181,Enter input value by passing in variable defined on 'Variable' tab,2018-03-26 19:59:16,2018-03-26 19:59:16,0.133s,PASSED
+click,Chrome 65.0.3325.181,Click on Submit,2018-03-26 19:59:16,2018-03-26 19:59:16,0.324s,PASSED
+verifyElementText,Chrome 65.0.3325.181,Compare Fibonacci output with expected value,2018-03-26 19:59:16,2018-03-26 19:59:16,0.106s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:16,2018-03-26 19:59:17,0.677s,PASSED
+,,,,,,
+Test Cases/Hello Page/Hello - Direct,Chrome 65.0.3325.181,Access Hello link directly,2018-03-26 19:59:17,2018-03-26 19:59:21,3.890s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:17,2018-03-26 19:59:19,2.031s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,Navigate to Hello page,2018-03-26 19:59:19,2018-03-26 19:59:20,0.967s,PASSED
+verifyElementText,Chrome 65.0.3325.181,Compare expected output to variable defined,2018-03-26 19:59:20,2018-03-26 19:59:20,0.068s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:20,2018-03-26 19:59:21,0.605s,PASSED
+,,,,,,
+Test Cases/Factorial Page/Factorial - Exception,Chrome 65.0.3325.181,Exception Test Factorial page,2018-03-26 19:59:21,2018-03-26 19:59:35,14.605s,FAILED
+verifyElementNotPresent,Chrome 65.0.3325.181,Internal Server Error will occur at this step,2018-03-26 19:59:21,2018-03-26 19:59:21,0.012s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(ExceptionTestData),Chrome 65.0.3325.181,,2018-03-26 19:59:21,2018-03-26 19:59:21,0.018s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:21,2018-03-26 19:59:23,2.017s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,Navigate to Factorial link directly,2018-03-26 19:59:23,2018-03-26 19:59:24,0.687s,PASSED
+click,Chrome 65.0.3325.181,Click on Submit,2018-03-26 19:59:24,2018-03-26 19:59:24,0.235s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 65.0.3325.181,Loop,2018-03-26 19:59:24,2018-03-26 19:59:35,10.831s,FAILED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:35,2018-03-26 19:59:35,0.602s,PASSED
+,,,,,,
+Test Cases/Fibonacci Page/Fibonacci - Exception,Chrome 65.0.3325.181,Exception Test Factorial page,2018-03-26 19:59:35,2018-03-26 19:59:51,15.911s,FAILED
+Statement - data = data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(ExceptionTestData),Chrome 65.0.3325.181,,2018-03-26 19:59:36,2018-03-26 19:59:36,0.016s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:36,2018-03-26 19:59:38,2.028s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,Navigate to Factorial link directly,2018-03-26 19:59:38,2018-03-26 19:59:38,0.683s,PASSED
+click,Chrome 65.0.3325.181,Click on Submit,2018-03-26 19:59:38,2018-03-26 19:59:39,0.269s,PASSED
+verifyElementNotPresent,Chrome 65.0.3325.181,Internal Server Error will occur at this step,2018-03-26 19:59:39,2018-03-26 19:59:40,1.507s,FAILED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 65.0.3325.181,,2018-03-26 19:59:40,2018-03-26 19:59:51,10.564s,FAILED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:51,2018-03-26 19:59:51,0.649s,PASSED
+,,,,,,
+Test Cases/Hello Page/Hello - Exception,Chrome 65.0.3325.181,Exception Test Hello page,2018-03-26 19:59:51,2018-03-26 20:00:00,8.329s,FAILED
+Statement - data = data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(HelloExceptionData),Chrome 65.0.3325.181,,2018-03-26 19:59:51,2018-03-26 19:59:51,0.004s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:51,2018-03-26 19:59:54,2.118s,PASSED
+Statement - For (def index : (1..data.getRowNumbers())),Chrome 65.0.3325.181,,2018-03-26 19:59:54,2018-03-26 19:59:59,5.464s,FAILED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-26 19:59:59,2018-03-26 20:00:00,0.595s,PASSED

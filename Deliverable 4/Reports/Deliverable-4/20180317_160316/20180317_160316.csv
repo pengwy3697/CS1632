@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Deliverable-4,Chrome 64.0.3282.186,,2018-03-17 16:03:18,2018-03-17 16:03:26,8.233s,PASSED
+,,,,,,
+Test Cases/Oyster,Chrome 64.0.3282.186,,2018-03-17 16:03:18,2018-03-17 16:03:22,4.180s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-17 16:03:18,2018-03-17 16:03:21,2.778s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-17 16:03:21,2018-03-17 16:03:22,0.412s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-17 16:03:22,2018-03-17 16:03:22,0.061s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-17 16:03:22,2018-03-17 16:03:22,0.628s,PASSED
+,,,,,,
+Test Cases/Factorial,Chrome 64.0.3282.186,Test Factorial page,2018-03-17 16:03:22,2018-03-17 16:03:25,2.983s,PASSED
+openBrowser,Chrome 64.0.3282.186,Open browser,2018-03-17 16:03:22,2018-03-17 16:03:24,1.911s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,Go to url: https://cs1632ex.herokuapp.com/,2018-03-17 16:03:24,2018-03-17 16:03:25,0.377s,PASSED
+click,Chrome 64.0.3282.186,Click on Factorial link,2018-03-17 16:03:25,2018-03-17 16:03:25,0.166s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,Verify 'Submit' button is present,2018-03-17 16:03:25,2018-03-17 16:03:25,0.030s,PASSED
+setText,Chrome 64.0.3282.186,Enter test value 8,2018-03-17 16:03:25,2018-03-17 16:03:25,0.117s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-17 16:03:25,2018-03-17 16:03:25,0.170s,PASSED

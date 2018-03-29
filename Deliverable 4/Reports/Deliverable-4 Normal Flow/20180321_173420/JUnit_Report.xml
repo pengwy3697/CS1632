@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Deliverable-4 Normal Flow" time="43" tests="5" failures="0" errors="0">
+   <testsuite name="Deliverable-4 Normal Flow" tests="5" failures="0" errors="0" time="43" timestamp="2018-03-21 17:34:22" hostname="jenni - DESKTOP-C9DGACK.home" id="Test Suites/Deliverable-4 Normal Flow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Normal Flow\\20180321_173420"/>
+         <property name="logFiles" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Normal Flow\\20180321_173420\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jenni - DESKTOP-C9DGACK.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="a7c041bde448f697c05d9eda02f4ce3e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Home Page/Home" classname="Test Cases/Home Page/Home" status="PASSED">
+         <system-out><![CDATA[2018-03-21 17:34:22 - [TEST_CASE][PASSED] - Test Cases/Home Page/Home: Test Cases/Home Page/Home
+
+2018-03-21 17:34:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:34:23 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-21 17:34:23 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-21 17:34:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:24 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-21 17:34:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:34:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:25 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:34:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:28 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Welcome element' is present
+
+2018-03-21 17:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Welcome element' is present
+
+2018-03-21 17:34:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Taught By element' is present
+
+2018-03-21 17:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Taught By element' is present
+
+2018-03-21 17:34:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/World element' is present
+
+2018-03-21 17:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/World element' is present
+
+2018-03-21 17:34:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:34:28 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-21 17:34:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/' successfully
+
+2018-03-21 17:34:31 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/' successfully
+
+2018-03-21 17:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Cathedral Pics' is clicked on
+
+2018-03-21 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Cathedral Pics' is clicked on
+
+2018-03-21 17:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/XPath/ol_1' is clicked on
+
+2018-03-21 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/XPath/ol_1' is clicked on
+
+2018-03-21 17:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/XPath/ol_2' is clicked on
+
+2018-03-21 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/XPath/ol_2' is clicked on
+
+2018-03-21 17:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/XPath/ol_3' is clicked on
+
+2018-03-21 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/XPath/ol_3' is clicked on
+
+2018-03-21 17:34:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:34:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hello Page/Hello - Normal Flow" classname="Test Cases/Hello Page/Hello - Normal Flow" status="PASSED">
+         <system-out><![CDATA[2018-03-21 17:34:32 - [TEST_CASE][PASSED] - Test Cases/Hello Page/Hello - Normal Flow: Test Cases/Hello Page/Hello - Normal Flow
+
+2018-03-21 17:34:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:34:32 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-21 17:34:32 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-21 17:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:33 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-21 17:34:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:34:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:33 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:34:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:35 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:35 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:35 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Hello href' is clicked on
+
+2018-03-21 17:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Hello href' is clicked on
+
+2018-03-21 17:34:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:36 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:34:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci Page/Fibonacci - Normal Flow" classname="Test Cases/Fibonacci Page/Fibonacci - Normal Flow" status="PASSED">
+         <system-out><![CDATA[2018-03-21 17:34:36 - [TEST_CASE][PASSED] - Test Cases/Fibonacci Page/Fibonacci - Normal Flow: Test Cases/Fibonacci Page/Fibonacci - Normal Flow
+
+2018-03-21 17:34:37 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FibonacciTestData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\fibInput.xlsx' and sheet name 'input'
+
+2018-03-21 17:34:37 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:34:37 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-21 17:34:37 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-21 17:34:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:38 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-21 17:34:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:34:38 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Browser is closed
+
+2018-03-21 17:34:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:38 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:34:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:40 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Fibonacci href' is clicked on
+
+2018-03-21 17:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Fibonacci href' is clicked on
+
+2018-03-21 17:34:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:41 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:41 - [MESSAGE][PASSED] - Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:41 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:41 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:34:41 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-21 17:34:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:42 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:34:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Fibonacci href' is clicked on
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Fibonacci href' is clicked on
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:34:45 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-21 17:34:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:45 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:34:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Fibonacci href' is clicked on
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Fibonacci href' is clicked on
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:34:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Page/Factorial - Normal Flow" classname="Test Cases/Factorial Page/Factorial - Normal Flow" status="PASSED">
+         <system-out><![CDATA[2018-03-21 17:34:49 - [TEST_CASE][PASSED] - Test Cases/Factorial Page/Factorial - Normal Flow: Test Cases/Factorial Page/Factorial - Normal Flow
+
+2018-03-21 17:34:49 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialTestData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\facInput.xlsx' and sheet name 'input'
+
+2018-03-21 17:34:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:34:49 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-21 17:34:49 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-21 17:34:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:34:50 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-21 17:34:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:34:50 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Browser is closed
+
+2018-03-21 17:34:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:50 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:34:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Factorial href' is clicked on
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Factorial href' is clicked on
+
+2018-03-21 17:34:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:52 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:34:53 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-21 17:34:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:53 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:34:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Factorial href' is clicked on
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Factorial href' is clicked on
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:34:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:34:57 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-21 17:34:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:57 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:34:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:34:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:34:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:59 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:34:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:59 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:34:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:34:59 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:34:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:34:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Factorial href' is clicked on
+
+2018-03-21 17:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Factorial href' is clicked on
+
+2018-03-21 17:35:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:35:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:35:00 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:35:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:35:00 - [MESSAGE][PASSED] - Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-21 17:35:00 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:35:00 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-21 17:35:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-21 17:35:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:35:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-21 17:35:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:35:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cathedral Pics/Cathedral - Normal Flow" classname="Test Cases/Cathedral Pics/Cathedral - Normal Flow" status="PASSED">
+         <system-out><![CDATA[2018-03-21 17:35:00 - [TEST_CASE][PASSED] - Test Cases/Cathedral Pics/Cathedral - Normal Flow: Test Cases/Cathedral Pics/Cathedral - Normal Flow
+
+2018-03-21 17:35:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:35:01 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-21 17:35:01 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-21 17:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-21 17:35:01 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-21 17:35:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-21 17:35:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:35:01 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-21 17:35:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-21 17:35:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-21 17:35:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:35:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Cathedral href' is clicked on
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Cathedral href' is clicked on
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-21 17:35:04 - [TEST_CASE][PASSED] - Test Cases/Common Test/Logo Present: Test Cases/Common Test/Logo Present
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_1' is present
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_1' is present
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_2' is present
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_2' is present
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_3' is present
+
+2018-03-21 17:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_3' is present
+
+2018-03-21 17:35:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Sunny' is present
+
+2018-03-21 17:35:05 - [MESSAGE][PASSED] - Object 'Object Repository/image/Sunny' is present
+
+2018-03-21 17:35:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Alpenglow' is present
+
+2018-03-21 17:35:05 - [MESSAGE][PASSED] - Object 'Object Repository/image/Alpenglow' is present
+
+2018-03-21 17:35:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Old' is present
+
+2018-03-21 17:35:05 - [MESSAGE][PASSED] - Object 'Object Repository/image/Old' is present
+
+2018-03-21 17:35:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-21 17:35:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-21 17:34:22 - [TEST_SUITE][PASSED] - Deliverable-4 Normal Flow: Test Cases/Cathedral Pics/Cathedral - Normal Flow]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

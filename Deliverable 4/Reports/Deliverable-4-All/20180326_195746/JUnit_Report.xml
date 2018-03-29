@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Deliverable-4-All" time="132" tests="16" failures="4" errors="0">
+   <testsuite name="Deliverable-4-All" tests="16" failures="4" errors="0" time="132" timestamp="2018-03-26 19:57:47" hostname="jenni - DESKTOP-C9DGACK" id="Test Suites/Deliverable-4-All">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746"/>
+         <property name="logFiles" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112341535.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112342406.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112343292.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112344038.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112366107.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112367918.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112369619.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112371372.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112373176.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112374913.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112380124.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112381896.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112383597.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112385409.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112387269.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112389043.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112390764.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112395569.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112397694.png, C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112399140.png"/>
+         <property name="hostName" value="jenni - DESKTOP-C9DGACK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="d802e991bfe04a0b77ca47d7dfde7216"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common Test/All 5 Links Present" classname="Test Cases/Common Test/All 5 Links Present" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:57:48 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-26 19:57:48 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-26 19:57:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:50 - [MESSAGE][PASSED] - All links are accessible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/Home" classname="Test Cases/Home Page/Home" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:57:50 - [TEST_CASE][PASSED] - Test Cases/Home Page/Home: Test Cases/Home Page/Home
+
+2018-03-26 19:57:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:57:50 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-26 19:57:50 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-26 19:57:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:51 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-26 19:57:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:57:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:57:51 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-26 19:57:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:57:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:57:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:57:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:57:55 - [TEST_CASE][PASSED] - Test Cases/Common Test/Logo Present: Test Cases/Common Test/Logo Present
+
+2018-03-26 19:57:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:57:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:57:55 - [TEST_STEP][PASSED] - Statement - welcomeStr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(XPath/p_Welcome element)): Text of object 'Object Repository/XPath/p_Welcome element' is: 'Welcome, friend,
+to a land of pure calculation.
+THE WORLD IS YOUR OYSTER'
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/XPath/p_Welcome element' is: 'Welcome, friend,
+to a land of pure calculation.
+THE WORLD IS YOUR OYSTER'
+
+2018-03-26 19:57:55 - [TEST_STEP][PASSED] - Statement - taughtBy = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(XPath/p_Taught element)): Text of object 'Object Repository/XPath/p_Taught element' is: 'Used for CS1632 Software Quality Assurance, taught by Bill Laboon'
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/XPath/p_Taught element' is: 'Used for CS1632 Software Quality Assurance, taught by Bill Laboon'
+
+2018-03-26 19:57:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Welcome, friend,
+to a land of pure calculation.
+THE WORLD IS YOUR OYSTER' and expected text 'Welcome, friend,(\s)*[\r\n]*to a land of pure calculation.[\r\n]*[A-Z\s]+$' are matched  using regular expression
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Actual text 'Welcome, friend,
+to a land of pure calculation.
+THE WORLD IS YOUR OYSTER' and expected text 'Welcome, friend,(\s)*[\r\n]*to a land of pure calculation.[\r\n]*[A-Z\s]+$' are matched  using regular expression
+
+2018-03-26 19:57:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Used for CS1632 Software Quality Assurance, taught by Bill Laboon' and expected text 'Used for CS1632 Software Quality Assurance,(\s)*[\r\n]*taught by Bill Laboon' are matched  using regular expression
+
+2018-03-26 19:57:55 - [MESSAGE][PASSED] - Actual text 'Used for CS1632 Software Quality Assurance, taught by Bill Laboon' and expected text 'Used for CS1632 Software Quality Assurance,(\s)*[\r\n]*taught by Bill Laboon' are matched  using regular expression
+
+2018-03-26 19:57:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:57:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci Page/Fibonacci - Normal Flow" classname="Test Cases/Fibonacci Page/Fibonacci - Normal Flow" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:57:56 - [TEST_CASE][PASSED] - Test Cases/Fibonacci Page/Fibonacci - Normal Flow: Test Cases/Fibonacci Page/Fibonacci - Normal Flow
+
+2018-03-26 19:57:56 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FibonacciTestData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\fibInput.xlsx' and sheet name 'input'
+
+2018-03-26 19:57:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:57:57 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-26 19:57:57 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-26 19:57:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:57:57 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-26 19:57:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:57:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:57:57 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-26 19:57:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:00 - [TEST_CASE][PASSED] - Test Cases/Common Test/Logo Present: Test Cases/Common Test/Logo Present
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Fibonacci href' is clicked on
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Fibonacci href' is clicked on
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-26 19:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Navigate back successfully
+
+2018-03-26 19:58:00 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:01 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:02 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:02 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Page/Factorial - Normal Flow" classname="Test Cases/Factorial Page/Factorial - Normal Flow" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:02 - [TEST_CASE][PASSED] - Test Cases/Factorial Page/Factorial - Normal Flow: Test Cases/Factorial Page/Factorial - Normal Flow
+
+2018-03-26 19:58:03 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialTestData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\facInput.xlsx' and sheet name 'input'
+
+2018-03-26 19:58:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:58:03 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-26 19:58:03 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-26 19:58:03 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:04 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-26 19:58:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:58:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:58:04 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-26 19:58:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:07 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:07 - [TEST_CASE][PASSED] - Test Cases/Common Test/Logo Present: Test Cases/Common Test/Logo Present
+
+2018-03-26 19:58:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:07 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:58:07 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:58:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:58:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Factorial href' is clicked on
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Factorial href' is clicked on
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:08 - [TEST_CASE][PASSED] - Test Cases/Common Test/Logo Present: Test Cases/Common Test/Logo Present
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Object 'Object Repository/GUI elements/Submit button' is present
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Navigate back successfully
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:08 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:09 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:09 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cathedral Pics/Cathedral - Normal Flow" classname="Test Cases/Cathedral Pics/Cathedral - Normal Flow" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:09 - [TEST_CASE][PASSED] - Test Cases/Cathedral Pics/Cathedral - Normal Flow: Test Cases/Cathedral Pics/Cathedral - Normal Flow
+
+2018-03-26 19:58:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:58:09 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-26 19:58:09 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-26 19:58:10 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:10 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:10 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:10 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:10 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:10 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-26 19:58:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:58:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:58:10 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-26 19:58:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:13 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:13 - [TEST_CASE][PASSED] - Test Cases/Common Test/Logo Present: Test Cases/Common Test/Logo Present
+
+2018-03-26 19:58:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:13 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:58:13 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:58:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:58:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Cathedral href' is clicked on
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Cathedral href' is clicked on
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:14 - [TEST_CASE][PASSED] - Test Cases/Common Test/Logo Present: Test Cases/Common Test/Logo Present
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_1' is present
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_1' is present
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_2' is present
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_2' is present
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_3' is present
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_3' is present
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Sunny' is present
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/image/Sunny' is present
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Alpenglow' is present
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/image/Alpenglow' is present
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Old' is present
+
+2018-03-26 19:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/image/Old' is present
+
+2018-03-26 19:58:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/Home - Corner" classname="Test Cases/Home Page/Home - Corner" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:15 - [TEST_CASE][PASSED] - Test Cases/Home Page/Home - Corner: Test Cases/Home Page/Home - Corner
+
+2018-03-26 19:58:15 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\facInput edge.xlsx' and sheet name 'input'
+
+2018-03-26 19:58:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:17 - [TEST_STEP][PASSED] - Statement - For (def index : (1..10)): Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:19 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:19 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hello Page/Hello - Normal Flow" classname="Test Cases/Hello Page/Hello - Normal Flow" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:19 - [TEST_CASE][PASSED] - Test Cases/Hello Page/Hello - Normal Flow: Test Cases/Hello Page/Hello - Normal Flow
+
+2018-03-26 19:58:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:58:20 - [TEST_CASE][PASSED] - Test Cases/Common Test/All 5 Links Present: Test Cases/Common Test/All 5 Links Present
+
+2018-03-26 19:58:20 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-03-26 19:58:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-03-26 19:58:20 - [MESSAGE][PASSED] - All links are accessible
+
+2018-03-26 19:58:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/All 5 Links Present' successfully
+
+2018-03-26 19:58:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:58:20 - [TEST_CASE][PASSED] - Test Cases/Common Test/Go To Home: Test Cases/Common Test/Go To Home
+
+2018-03-26 19:58:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:23 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com' successfully
+
+2018-03-26 19:58:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:23 - [TEST_CASE][PASSED] - Test Cases/Common Test/Logo Present: Test Cases/Common Test/Logo Present
+
+2018-03-26 19:58:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Logo Present' successfully
+
+2018-03-26 19:58:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/Home element' is present
+
+2018-03-26 19:58:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test/Go To Home' successfully
+
+2018-03-26 19:58:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/href/Hello href' is clicked on
+
+2018-03-26 19:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/href/Hello href' is clicked on
+
+2018-03-26 19:58:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-26 19:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/image/Logo' is present
+
+2018-03-26 19:58:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Page/Factorial - Edge" classname="Test Cases/Factorial Page/Factorial - Edge" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:24 - [TEST_CASE][PASSED] - Test Cases/Factorial Page/Factorial - Edge: Test Cases/Factorial Page/Factorial - Edge
+
+2018-03-26 19:58:24 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\facInput edge.xlsx' and sheet name 'input'
+
+2018-03-26 19:58:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-26 19:58:27 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-26 19:58:27 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Navigate back successfully
+
+2018-03-26 19:58:27 - [TEST_STEP][PASSED] - setText: Text '-1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - setText: Text '0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - setText: Text '101' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Text '101' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:29 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:29 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:29 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:29 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:29 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:29 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci Page/Fibonacci - Edge" classname="Test Cases/Fibonacci Page/Fibonacci - Edge" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:30 - [TEST_CASE][PASSED] - Test Cases/Fibonacci Page/Fibonacci - Edge: Test Cases/Fibonacci Page/Fibonacci - Edge
+
+2018-03-26 19:58:30 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FibonacciEdgeData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\fibInput edge.xlsx' and sheet name 'input'
+
+2018-03-26 19:58:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-26 19:58:32 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-26 19:58:32 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Navigate back successfully
+
+2018-03-26 19:58:32 - [TEST_STEP][PASSED] - setText: Text '-100' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:33 - [MESSAGE][PASSED] - Text '-100' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:33 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:33 - [TEST_STEP][PASSED] - setText: Text '-1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:33 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:33 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:34 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:34 - [TEST_STEP][PASSED] - setText: Text '0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:34 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:34 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:34 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:34 - [TEST_STEP][PASSED] - setText: Text '101' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:34 - [MESSAGE][PASSED] - Text '101' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:35 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:35 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:35 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:35 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:35 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:35 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hello Page/Hello - Edge" classname="Test Cases/Hello Page/Hello - Edge" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:36 - [TEST_CASE][PASSED] - Test Cases/Hello Page/Hello - Edge: Test Cases/Hello Page/Hello - Edge
+
+2018-03-26 19:58:36 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(HelloEdgeData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\hello_edge.xlsx' and sheet name 'input'
+
+2018-03-26 19:58:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:38 - [TEST_STEP][PASSED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Navigate back successfully
+
+2018-03-26 19:58:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/123' successfully
+
+2018-03-26 19:58:39 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/123' successfully
+
+2018-03-26 19:58:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:39 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:39 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/-123' successfully
+
+2018-03-26 19:58:39 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/-123' successfully
+
+2018-03-26 19:58:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:39 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:39 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/*' successfully
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/*' successfully
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/^' successfully
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/^' successfully
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/@' successfully
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/@' successfully
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/{' successfully
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/{' successfully
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/}' successfully
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/}' successfully
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/+' successfully
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/+' successfully
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/-' successfully
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/-' successfully
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/%20' successfully
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/%20' successfully
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:41 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Page/Factorial - Corner" classname="Test Cases/Factorial Page/Factorial - Corner" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:42 - [TEST_CASE][PASSED] - Test Cases/Factorial Page/Factorial - Corner: Test Cases/Factorial Page/Factorial - Corner
+
+2018-03-26 19:58:42 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\facInput edge.xlsx' and sheet name 'input'
+
+2018-03-26 19:58:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-26 19:58:45 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-26 19:58:45 - [TEST_STEP][PASSED] - Statement - For (def index : (-10..0)): Navigate back successfully
+
+2018-03-26 19:58:45 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:45 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:45 - [TEST_STEP][PASSED] - setText: Text '-10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:45 - [MESSAGE][PASSED] - Text '-10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - setText: Text '-9' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Text '-9' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - setText: Text '-8' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Text '-8' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - setText: Text '-7' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:46 - [MESSAGE][PASSED] - Text '-7' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - setText: Text '-6' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Text '-6' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - setText: Text '-5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Text '-5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - setText: Text '-4' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Text '-4' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - setText: Text '-3' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Text '-3' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - setText: Text '-2' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:48 - [MESSAGE][PASSED] - Text '-2' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - setText: Text '-1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - setText: Text '0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:49 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci Page/Fibonacci - Corner" classname="Test Cases/Fibonacci Page/Fibonacci - Corner" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:58:50 - [TEST_CASE][PASSED] - Test Cases/Fibonacci Page/Fibonacci - Corner: Test Cases/Fibonacci Page/Fibonacci - Corner
+
+2018-03-26 19:58:50 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\facInput edge.xlsx' and sheet name 'input'
+
+2018-03-26 19:58:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:58:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:58:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-26 19:58:53 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - Statement - For (def index : (1000..1010)): Navigate back successfully
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - setText: Text '1000' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:53 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:53 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:53 - [TEST_STEP][PASSED] - setText: Text '1001' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:54 - [MESSAGE][PASSED] - Text '1001' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - setText: Text '1002' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:54 - [MESSAGE][PASSED] - Text '1002' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:54 - [TEST_STEP][PASSED] - setText: Text '1003' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:55 - [MESSAGE][PASSED] - Text '1003' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:55 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - setText: Text '1004' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:55 - [MESSAGE][PASSED] - Text '1004' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:55 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:55 - [TEST_STEP][PASSED] - setText: Text '1005' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Text '1005' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - setText: Text '1006' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Text '1006' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - setText: Text '1007' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Text '1007' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:56 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:56 - [TEST_STEP][PASSED] - setText: Text '1008' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Text '1008' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - setText: Text '1009' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Text '1009' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - setText: Text '1010' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:58:57 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:58:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:58:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hello Page/Hello - Defect" classname="Test Cases/Hello Page/Hello - Defect" status="FAILED">
+         <failure type="FAILED" message="Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from ?!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched."/>
+         <system-out><![CDATA[2018-03-26 19:58:58 - [TEST_CASE][FAILED] - Test Cases/Hello Page/Hello - Defect: Test Cases/Hello Page/Hello - Defect FAILED because (of) Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from ?!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+
+2018-03-26 19:58:58 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(HelloDefectData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\hello_defect.xlsx' and sheet name 'input'
+
+2018-03-26 19:58:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:59:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:59:00 - [TEST_STEP][FAILED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Navigate back successfully
+
+2018-03-26 19:59:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/?' successfully
+
+2018-03-26 19:59:01 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/?' successfully
+
+2018-03-26 19:59:01 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from ?!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+
+2018-03-26 19:59:01 - [MESSAGE][FAILED] - Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from ?!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112341535.png]]
+
+2018-03-26 19:59:01 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:02 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/#' successfully
+
+2018-03-26 19:59:02 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/#' successfully
+
+2018-03-26 19:59:02 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from #!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+
+2018-03-26 19:59:02 - [MESSAGE][FAILED] - Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from #!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112342406.png]]
+
+2018-03-26 19:59:02 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:02 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/\' successfully
+
+2018-03-26 19:59:03 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/\' successfully
+
+2018-03-26 19:59:03 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from \!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+
+2018-03-26 19:59:03 - [MESSAGE][FAILED] - Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from \!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112343292.png]]
+
+2018-03-26 19:59:03 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:03 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello//' successfully
+
+2018-03-26 19:59:03 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello//' successfully
+
+2018-03-26 19:59:03 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from /!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+
+2018-03-26 19:59:04 - [MESSAGE][FAILED] - Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from /!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112344038.png]]
+
+2018-03-26 19:59:04 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:04 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:59:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-03-26 19:58:58 - [TEST_CASE][FAILED] - Test Cases/Hello Page/Hello - Defect: Test Cases/Hello Page/Hello - Defect FAILED because (of) Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from ?!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cathedral Pics/Cathedral - Direct" classname="Test Cases/Cathedral Pics/Cathedral - Direct" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:59:05 - [TEST_CASE][PASSED] - Test Cases/Cathedral Pics/Cathedral - Direct: Test Cases/Cathedral Pics/Cathedral - Direct
+
+2018-03-26 19:59:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:59:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:59:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/cathy' successfully
+
+2018-03-26 19:59:08 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/cathy' successfully
+
+2018-03-26 19:59:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_1' is present
+
+2018-03-26 19:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_1' is present
+
+2018-03-26 19:59:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_2' is present
+
+2018-03-26 19:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_2' is present
+
+2018-03-26 19:59:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/XPath/ol_3' is present
+
+2018-03-26 19:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/XPath/ol_3' is present
+
+2018-03-26 19:59:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Sunny' is present
+
+2018-03-26 19:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/image/Sunny' is present
+
+2018-03-26 19:59:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Alpenglow' is present
+
+2018-03-26 19:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/image/Alpenglow' is present
+
+2018-03-26 19:59:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/image/Old' is present
+
+2018-03-26 19:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/image/Old' is present
+
+2018-03-26 19:59:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:59:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Page/Factorial - Direct" classname="Test Cases/Factorial Page/Factorial - Direct" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:59:09 - [TEST_CASE][PASSED] - Test Cases/Factorial Page/Factorial - Direct: Test Cases/Factorial Page/Factorial - Direct
+
+2018-03-26 19:59:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:59:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:59:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-26 19:59:11 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-26 19:59:11 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:12 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:59:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:59:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:59:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci Page/Fibonacci - Direct" classname="Test Cases/Fibonacci Page/Fibonacci - Direct" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:59:13 - [TEST_CASE][PASSED] - Test Cases/Fibonacci Page/Fibonacci - Direct: Test Cases/Fibonacci Page/Fibonacci - Direct
+
+2018-03-26 19:59:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:59:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:59:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-26 19:59:16 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-26 19:59:16 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:16 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:59:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:59:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:59:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hello Page/Hello - Direct" classname="Test Cases/Hello Page/Hello - Direct" status="PASSED">
+         <system-out><![CDATA[2018-03-26 19:59:17 - [TEST_CASE][PASSED] - Test Cases/Hello Page/Hello - Direct: Test Cases/Hello Page/Hello - Direct
+
+2018-03-26 19:59:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:59:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:59:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello' successfully
+
+2018-03-26 19:59:20 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello' successfully
+
+2018-03-26 19:59:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:59:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-26 19:59:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:59:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Page/Factorial - Exception" classname="Test Cases/Factorial Page/Factorial - Exception" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Exception elements/Internal Server Error' is not present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-C9DGACK', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-03-26 19:59:21 - [TEST_CASE][FAILED] - Test Cases/Factorial Page/Factorial - Exception: Test Cases/Factorial Page/Factorial - Exception FAILED because (of) Unable to verify object 'Object Repository/Exception elements/Internal Server Error' is not present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-C9DGACK', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 19:59:21 - [TEST_STEP][FAILED] - verifyElementNotPresent: Unable to verify object 'Object Repository/Exception elements/Internal Server Error' is not present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-C9DGACK', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 19:59:21 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 19:59:21 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Exception elements/Internal Server Error' is not present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-C9DGACK', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 19:59:21 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(ExceptionTestData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\exceptionInput.xlsx' and sheet name 'input'
+
+2018-03-26 19:59:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:59:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:59:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-26 19:59:24 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-26 19:59:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:24 - [TEST_STEP][FAILED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:24 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:24 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:24 - [TEST_STEP][PASSED] - setText: Text '%' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:24 - [MESSAGE][PASSED] - Text '%' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:24 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:26 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112366107.png]]
+
+2018-03-26 19:59:26 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:26 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:26 - [TEST_STEP][PASSED] - setText: Text '9-' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:26 - [MESSAGE][PASSED] - Text '9-' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:26 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:28 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112367918.png]]
+
+2018-03-26 19:59:28 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:28 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:28 - [TEST_STEP][PASSED] - setText: Text '2+' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:28 - [MESSAGE][PASSED] - Text '2+' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:28 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:29 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112369619.png]]
+
+2018-03-26 19:59:29 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:30 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:30 - [TEST_STEP][PASSED] - setText: Text 'A' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:30 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:30 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:31 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112371372.png]]
+
+2018-03-26 19:59:31 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:31 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:31 - [TEST_STEP][PASSED] - setText: Text '0.0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:31 - [MESSAGE][PASSED] - Text '0.0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:32 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:33 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112373176.png]]
+
+2018-03-26 19:59:33 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:33 - [TEST_STEP][PASSED] - setText: Text '8.1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:33 - [MESSAGE][PASSED] - Text '8.1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:33 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:35 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112374913.png]]
+
+2018-03-26 19:59:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:59:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-03-26 19:59:21 - [TEST_CASE][FAILED] - Test Cases/Factorial Page/Factorial - Exception: Test Cases/Factorial Page/Factorial - Exception FAILED because (of) Unable to verify object 'Object Repository/Exception elements/Internal Server Error' is not present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-C9DGACK', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci Page/Fibonacci - Exception" classname="Test Cases/Fibonacci Page/Fibonacci - Exception" status="FAILED">
+         <failure type="FAILED" message="Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)"/>
+         <system-out><![CDATA[2018-03-26 19:59:35 - [TEST_CASE][FAILED] - Test Cases/Fibonacci Page/Fibonacci - Exception: Test Cases/Fibonacci Page/Fibonacci - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:36 - [TEST_STEP][PASSED] - Statement - data = data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(ExceptionTestData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\exceptionInput.xlsx' and sheet name 'input'
+
+2018-03-26 19:59:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:59:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:59:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-26 19:59:38 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-26 19:59:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:39 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:40 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112380124.png]]
+
+2018-03-26 19:59:40 - [TEST_STEP][FAILED] - Statement - For (def index : (0..(data.getRowNumbers() - 1))): Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:40 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:40 - [TEST_STEP][PASSED] - setText: Text '%' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:40 - [MESSAGE][PASSED] - Text '%' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:40 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:42 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112381896.png]]
+
+2018-03-26 19:59:42 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:42 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:42 - [TEST_STEP][PASSED] - setText: Text '9-' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:42 - [MESSAGE][PASSED] - Text '9-' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:42 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:43 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112383597.png]]
+
+2018-03-26 19:59:43 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:43 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:43 - [TEST_STEP][PASSED] - setText: Text '2+' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:44 - [MESSAGE][PASSED] - Text '2+' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:44 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:45 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112385409.png]]
+
+2018-03-26 19:59:45 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:45 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:45 - [TEST_STEP][PASSED] - setText: Text 'A' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:45 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:46 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:47 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112387269.png]]
+
+2018-03-26 19:59:47 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:47 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:47 - [TEST_STEP][PASSED] - setText: Text '0.0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:47 - [MESSAGE][PASSED] - Text '0.0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:47 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:49 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112389043.png]]
+
+2018-03-26 19:59:49 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-26 19:59:49 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-26 19:59:49 - [TEST_STEP][PASSED] - setText: Text '8.1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:49 - [MESSAGE][PASSED] - Text '8.1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-26 19:59:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-26 19:59:49 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+
+2018-03-26 19:59:51 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112390764.png]]
+
+2018-03-26 19:59:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 19:59:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-03-26 19:59:35 - [TEST_CASE][FAILED] - Test Cases/Fibonacci Page/Fibonacci - Exception: Test Cases/Fibonacci Page/Fibonacci - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Internal Server Error' located by 'By.xpath: //body[(text() = 'Internal server error' or . = 'Internal server error')]' is present after '1' second(s)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hello Page/Hello - Exception" classname="Test Cases/Hello Page/Hello - Exception" status="FAILED">
+         <failure type="FAILED" message="Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)"/>
+         <system-out><![CDATA[2018-03-26 19:59:51 - [TEST_CASE][FAILED] - Test Cases/Hello Page/Hello - Exception: Test Cases/Hello Page/Hello - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)
+
+2018-03-26 19:59:51 - [TEST_STEP][PASSED] - Statement - data = data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(HelloExceptionData): Reading CSV file with source file 'comma', separator 'not containing header' and '{2}'
+
+2018-03-26 19:59:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 19:59:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 19:59:54 - [TEST_STEP][FAILED] - Statement - For (def index : (1..data.getRowNumbers())): Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)
+
+2018-03-26 19:59:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/%' successfully
+
+2018-03-26 19:59:54 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/%' successfully
+
+2018-03-26 19:59:54 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)
+
+2018-03-26 19:59:56 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112395569.png]]
+
+2018-03-26 19:59:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/|' successfully
+
+2018-03-26 19:59:56 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/|' successfully
+
+2018-03-26 19:59:56 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is not present after '1' second(s)
+
+2018-03-26 19:59:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is not present after '1' second(s)
+
+2018-03-26 19:59:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/[' successfully
+
+2018-03-26 19:59:56 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/[' successfully
+
+2018-03-26 19:59:56 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)
+
+2018-03-26 19:59:58 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112397694.png]]
+
+2018-03-26 19:59:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/hello/]' successfully
+
+2018-03-26 19:59:58 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/hello/]' successfully
+
+2018-03-26 19:59:58 - [TEST_STEP][FAILED] - verifyElementNotPresent: Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)
+
+2018-03-26 19:59:59 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)
+[[ATTACHMENT|C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4-All\\20180326_195746\\1522112399140.png]]
+
+2018-03-26 19:59:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 20:00:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-03-26 19:59:51 - [TEST_CASE][FAILED] - Test Cases/Hello Page/Hello - Exception: Test Cases/Hello Page/Hello - Exception FAILED because (of) Web element with id: 'Object Repository/Exception elements/Application Error' located by 'By.xpath: //*[@src = '//www.herokucdn.com/error-pages/application-error.html']' is present after '1' second(s)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-26 19:57:47 - [TEST_SUITE][FAILED] - Deliverable-4-All: Test Cases/Hello Page/Hello - Defect FAILED because (of) Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from ?!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.]]></system-out>
+      <system-err><![CDATA[2018-03-26 19:57:47 - [TEST_SUITE][FAILED] - Deliverable-4-All: Test Cases/Hello Page/Hello - Defect FAILED because (of) Actual text 'Hello CS1632, from Prof. Laboon!' and expected text 'Hello CS1632, from ?!' of test object 'Object Repository/GUI elements/Div jumbotron' are NOT matched.]]></system-err>
+   </testsuite>
+</testsuites>

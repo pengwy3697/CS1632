@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Deliverable-4 Corner" time="18" tests="2" failures="0" errors="0">
+   <testsuite name="Deliverable-4 Corner" tests="2" failures="0" errors="0" time="18" timestamp="2018-03-25 19:56:37" hostname="jenni - DESKTOP-C9DGACK" id="Test Suites/Deliverable-4 Corner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Corner\\20180325_195636"/>
+         <property name="logFiles" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4 Corner\\20180325_195636\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jenni - DESKTOP-C9DGACK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="ebe69397d19f6e0ca07d1a63548dd16f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Factorial Page/Factorial - Corner" classname="Test Cases/Factorial Page/Factorial - Corner" status="PASSED">
+         <system-out><![CDATA[2018-03-25 19:56:38 - [TEST_CASE][PASSED] - Test Cases/Factorial Page/Factorial - Corner: Test Cases/Factorial Page/Factorial - Corner
+
+2018-03-25 19:56:38 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\facInput edge.xlsx' and sheet name 'input'
+
+2018-03-25 19:56:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-25 19:56:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-25 19:56:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-25 19:56:42 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fact' successfully
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - Statement - For (def index : (-10..0)): Navigate back successfully
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - setText: Text '-10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:42 - [MESSAGE][PASSED] - Text '-10' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:42 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:42 - [TEST_STEP][PASSED] - setText: Text '-9' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:43 - [MESSAGE][PASSED] - Text '-9' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:43 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - setText: Text '-8' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:43 - [MESSAGE][PASSED] - Text '-8' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:43 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:43 - [TEST_STEP][PASSED] - setText: Text '-7' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:44 - [MESSAGE][PASSED] - Text '-7' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:44 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - setText: Text '-6' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:44 - [MESSAGE][PASSED] - Text '-6' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:44 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - setText: Text '-5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Text '-5' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - setText: Text '-4' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Text '-4' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - setText: Text '-3' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:45 - [MESSAGE][PASSED] - Text '-3' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - setText: Text '-2' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Text '-2' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - setText: Text '-1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:47 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:47 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:47 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:47 - [TEST_STEP][PASSED] - Statement - outputString = "Factorial of " + index + " is 1!": null
+
+2018-03-25 19:56:47 - [TEST_STEP][PASSED] - setText: Text '0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:47 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:47 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:47 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-25 19:56:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci Page/Fibonacci - Corner" classname="Test Cases/Fibonacci Page/Fibonacci - Corner" status="PASSED">
+         <system-out><![CDATA[2018-03-25 19:56:48 - [TEST_CASE][PASSED] - Test Cases/Fibonacci Page/Fibonacci - Corner: Test Cases/Fibonacci Page/Fibonacci - Corner
+
+2018-03-25 19:56:48 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FactorialEdgeData): Reading excel file with source file 'C:\Katalon Studio\Deliverable-4\Data Files\facInput edge.xlsx' and sheet name 'input'
+
+2018-03-25 19:56:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-25 19:56:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-25 19:56:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-25 19:56:51 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/fib' successfully
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - Statement - For (def index : (1000..1010)): Navigate back successfully
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - setText: Text '1000' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:51 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:51 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - setText: Text '1001' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:51 - [MESSAGE][PASSED] - Text '1001' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - setText: Text '1002' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Text '1002' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - setText: Text '1003' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Text '1003' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:52 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:52 - [TEST_STEP][PASSED] - setText: Text '1004' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:53 - [MESSAGE][PASSED] - Text '1004' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:53 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - setText: Text '1005' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:53 - [MESSAGE][PASSED] - Text '1005' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:53 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:53 - [TEST_STEP][PASSED] - setText: Text '1006' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Text '1006' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - setText: Text '1007' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Text '1007' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - setText: Text '1008' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:54 - [MESSAGE][PASSED] - Text '1008' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - setText: Text '1009' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Text '1009' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - Statement - testString = "" + index: null
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - Statement - outputString = "Fibonacci of " + index + " is 1!": null
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - setText: Text '1010' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/GUI elements/Text element'
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI elements/Submit button' is clicked on
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI elements/Div jumbotron' are matched.
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-03-25 19:56:55 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-03-25 19:56:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-25 19:56:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-25 19:56:37 - [TEST_SUITE][PASSED] - Deliverable-4 Corner: Test Cases/Fibonacci Page/Fibonacci - Corner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

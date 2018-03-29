@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Deliverable-4" time="8" tests="2" failures="0" errors="0">
+   <testsuite name="Deliverable-4" tests="2" failures="0" errors="0" time="8" timestamp="2018-03-17 16:03:18" hostname="jenni - DESKTOP-C9DGACK.home" id="Test Suites/Deliverable-4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4\\20180317_160316"/>
+         <property name="logFiles" value="C:\\Katalon Studio\\Deliverable-4\\Reports\\Deliverable-4\\20180317_160316\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jenni - DESKTOP-C9DGACK.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="30396a7bb8a789d30033ee8c3ba0bbf3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Oyster" classname="Test Cases/Oyster" status="PASSED">
+         <system-out><![CDATA[2018-03-17 16:03:18 - [TEST_CASE][PASSED] - Test Cases/Oyster: Test Cases/Oyster
+
+2018-03-17 16:03:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-17 16:03:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-17 16:03:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/' successfully
+
+2018-03-17 16:03:22 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/' successfully
+
+2018-03-17 16:03:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Logo' is present
+
+2018-03-17 16:03:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-17 16:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/Logo' is present
+
+2018-03-17 16:03:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-17 16:03:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial" classname="Test Cases/Factorial" status="PASSED">
+         <system-out><![CDATA[2018-03-17 16:03:22 - [TEST_CASE][PASSED] - Test Cases/Factorial: Test Cases/Factorial
+
+2018-03-17 16:03:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-17 16:03:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-17 16:03:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://cs1632ex.herokuapp.com/' successfully
+
+2018-03-17 16:03:25 - [MESSAGE][PASSED] - Navigate to 'https://cs1632ex.herokuapp.com/' successfully
+
+2018-03-17 16:03:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Factorial href' is clicked on
+
+2018-03-17 16:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial href' is clicked on
+
+2018-03-17 16:03:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Submit button' is present
+
+2018-03-17 16:03:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-17 16:03:25 - [MESSAGE][PASSED] - Object 'Object Repository/Submit button' is present
+
+2018-03-17 16:03:25 - [TEST_STEP][PASSED] - setText: Text '8' is set on object 'Object Repository/Value'
+
+2018-03-17 16:03:25 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Value'
+
+2018-03-17 16:03:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Submit button' is clicked on
+
+2018-03-17 16:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-17 16:03:18 - [TEST_SUITE][PASSED] - Deliverable-4: Test Cases/Factorial]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
