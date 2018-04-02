@@ -1,0 +1,6 @@
+Metrics/LineLength:
+  Max: 95
+Layout/EndOfLine:
+  EnforcedStyle: lf
+Metrics/AbcSize:
+  Max: 25

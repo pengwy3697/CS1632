@@ -1,0 +1,6 @@
+FeatureEnvy:
+  enabled: false
+NilCheck:
+  enabled: false
+DuplicateMethodCall:
+  enabled: false
