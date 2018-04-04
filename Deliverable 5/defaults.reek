@@ -4,3 +4,5 @@ NilCheck:
   enabled: false
 DuplicateMethodCall:
   enabled: false
+TooManyMethods:
+  enabled: false
