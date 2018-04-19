@@ -1,0 +1,5 @@
+LET a 10
+LET b 2 2 +
+LET c a b +
+10 10 * 5 5 * 0 0 * + +
+QUIT
